@@ -6,3 +6,10 @@
 * page 지시자, include 지시자
 * 표현식, 스크립틀릿
 * request 내장객체
+
+----- chap07 Branch -----
+* 액션태그 forward
+* 액션태그 include
+* 액션태그 param
+* 자바빈즈
+* 액션태그 useBean
