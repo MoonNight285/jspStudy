@@ -35,3 +35,7 @@
 
 ----- chap12 Branch -----
 * 파일 업로드
+
+----- chap13 Branch -----
+* JDBC 연결
+* JDBC 사용해 데이터 INSERT
