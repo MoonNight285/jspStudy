@@ -39,3 +39,5 @@
 ----- chap13 Branch -----
 * JDBC 연결
 * JDBC 사용해 데이터 INSERT
+* JDBC 사용해 데이터 DELETE, UPDATE, SELECT
+* JDBC 사용해 게시판 메인, 글쓰기화면, 글쓰기 처리 로직 작성
