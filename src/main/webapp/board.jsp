@@ -44,7 +44,8 @@
                         ResultSet rs = null;
 
                         try {
-                            String sql = "SELECT number, title, user_id, create_date, cnt FROM board WHERE deleted_yn = 'N' ";
+                            String sql = "SELECT number, title, user_id, create_date, cnt FROM board WHERE deleted_yn = 'N' " +
+                                    "ORDER BY number DESC;";
                             pstmt = conn.prepareStatement(sql);
                             rs = pstmt.executeQuery();
 
@@ -57,7 +58,7 @@
                     %>
                     <tr>
                         <td><%=number%></td>
-                        <td><%=title%></td>
+                        <td><a href="boardDetail2.jsp?number=<%=number%>"><%=title%></a></td>
                         <td><%=userId%></td>
                         <td><%=createDate%></td>
                         <td><%=cnt%></td>
